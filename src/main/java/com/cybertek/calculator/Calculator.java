@@ -16,7 +16,7 @@ public class Calculator {
     @Autowired
     private Carpet carpet;
 
-    @Qualifier("kitchen")
+    @Qualifier("bedroom")
     @Autowired
     private Floor floor;
 
